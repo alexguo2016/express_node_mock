@@ -1,13 +1,13 @@
 // 这里放的是访问页面的路由和操作
-const myTools = require('./util')
-const {readFile} = myTools
+const myTools = require("./util");
+const { readFile, writeFile } = myTools;
 
 const root = {
   path: "/",
   method: "get",
   jsonFile: "",
-  callback: function (req, res) {
-    res.send('Hello World!')
+  callback: function(req, res) {
+    res.send("Hello World!");
   }
 };
 const data = {
@@ -33,10 +33,25 @@ const file = {
   }
 };
 
+const edit = {
+  path: "/edit",
+  method: "post",
+  jsonFile: "./data/data.json",
+  callback: function(req, res) {
+    const params = req.body;
+    // console.log("params", params);
+    var filePath = './data/data.json'
+    writeFile(filePath, params, function(params) {
+      res.send(params)
+    });
+  }
+};
+
 const routers = {
   root,
   data,
-  file
+  file,
+  edit
 };
 
 module.exports = routers;
