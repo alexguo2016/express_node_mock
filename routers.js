@@ -47,11 +47,26 @@ const edit = {
   }
 };
 
+// 以下是小程序开发用到的mock接口
+const index_init = {
+  path: '/index_init',
+  method: 'get',
+  jsonFile: './data/index_page.json',
+  callback: function(req, res) {
+    var filePath = "./data/index_page.json";
+    readFile(filePath, function(result) {
+      res.send(result);
+    });
+  }
+}
+
 const routers = {
   root,
   data,
   file,
-  edit
+  edit,
+
+  index_init
 };
 
 module.exports = routers;
