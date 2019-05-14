@@ -5,6 +5,7 @@ tags
 .DS_Store
 node_modules/
 .cache-loader
+data/
 
 npm-debug.log*
 yarn-debug.log*
