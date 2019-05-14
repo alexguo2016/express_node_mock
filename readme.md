@@ -20,7 +20,7 @@
 
 ## 增加个人设置
 
-例如
+例如, 在routers.js文件里面增加
 
 ```js
 const root = {
@@ -30,6 +30,11 @@ const root = {
   callback: function (req, res) {
     res.send('Hello World!')
   }
+};
+
+const routers = {
+  // 其他路由
+  root // 刚刚增加的路由
 };
 ```
 
