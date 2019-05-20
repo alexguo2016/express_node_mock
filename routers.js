@@ -60,13 +60,54 @@ const index_init = {
   }
 }
 
+// 选择地区页面
+const index_change_location_init = {
+  path: '/index_change_location_init',
+  method: 'get',
+  jsonFile: './data/index_change_location_init.json',
+  callback: function(req, res) {
+    var filePath = "./data/index_change_location_init.json";
+    readFile(filePath, function(result) {
+      res.send(result);
+    });
+  }
+}
+
+// 美食搜索页面
+const index_food_search_init = {
+  path: '/index_food_search_init',
+  method: 'get',
+  jsonFile: './data/index_food_search_init.json',
+  callback: function(req, res) {
+    var filePath = "./data/index_food_search_init.json";
+    readFile(filePath, function(result) {
+      res.send(result);
+    });
+  }
+}
+// 美食搜索页面
+const index_food_blog_init = {
+  path: '/index_food_blog_init',
+  method: 'get',
+  jsonFile: './data/index_food_blog_init.json',
+  callback: function(req, res) {
+    var filePath = "./data/index_food_blog_init.json";
+    readFile(filePath, function(result) {
+      res.send(result);
+    });
+  }
+}
+
 const routers = {
   root,
   data,
   file,
   edit,
 
-  index_init
+  index_init,
+  index_change_location_init,
+  index_food_search_init,
+  index_food_blog_init
 };
 
 module.exports = routers;

@@ -1,0 +1,5 @@
+{
+    "areas": [{"label":"南海区","value":0},{"label":"禅城区","value":1},{"label":"顺德区","value":2},{"label":"三水区","value":3},{"label":"高明区","value":4}],
+  "towns": [{"label":"乐从镇","value":0},{"label":"大良镇","value":1},{"label":"北滘镇","value":2},{"label":"陈村镇","value":3},{"label":"龙江镇","value":4}],
+  "title": ""
+}

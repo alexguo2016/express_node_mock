@@ -1,0 +1,4 @@
+{
+  "searchHistory": [{"label":"水煮鱼","value":"水煮鱼"},{"label":"水煮鱼","value":"水煮鱼"},{"label":"水煮鱼","value":"水煮鱼"}],
+    "recommandDishies": [{"thumb":"../../imgs/exampleJPG.jpeg","rate":"4","shopName":"AAA小店","distance":"1000m","comments":"1345","avgCost":"¥50/人","foodType":"简餐","address":"大良"},{"thumb":"../../imgs/exampleJPG.jpeg","rate":"4","shopName":"AAA小店","distance":"100m","comments":"456","avgCost":"¥50/人","foodType":"简餐","address":"大良"},{"thumb":"../../imgs/exampleJPG.jpeg","rate":"4","shopName":"AAA小店","distance":"1000m","comments":"323","avgCost":"¥150/人","foodType":"简餐","address":"大良"},{"thumb":"../../imgs/exampleJPG.jpeg","rate":"4","shopName":"AAA小店","distance":"1000m","comments":"897","avgCost":"¥570/人","foodType":"简餐","address":"大良"},{"thumb":"../../imgs/exampleJPG.jpeg","rate":"4","shopName":"AAA小店","distance":"1000m","comments":"31","avgCost":"¥590/人","foodType":"简餐","address":"大良"}]
+}
