@@ -1,5 +1,5 @@
 {
     "areas": [{"label":"南海区","value":0},{"label":"禅城区","value":1},{"label":"顺德区","value":2},{"label":"三水区","value":3},{"label":"高明区","value":4}],
-  "towns": [{"label":"乐从镇","value":0},{"label":"大良镇","value":1},{"label":"北滘镇","value":2},{"label":"陈村镇","value":3},{"label":"龙江镇","value":4}],
+  "towns": [{"label":"勒流街道","value":0},{"label":"伦教街道","value":1},{"label":"容桂街道","value":2},{"label":"均安镇","value":3},{"label":"杏坛镇","value":4},{"label":"龙江镇","value":5},{"label":"乐从镇","value":6},{"label":"北滘镇","value":7},{"label":"陈村镇","value":8},{"label":"大良街道","value":9}],
   "title": ""
 }
